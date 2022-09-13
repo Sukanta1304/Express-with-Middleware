@@ -1,0 +1,34 @@
+{
+    "posts": [
+        {
+            "id": 2,
+            "title": "efgh",
+            "content": "bbbbbbbbbbbb",
+            "author": "b"
+        },
+        {
+            "id": 3,
+            "title": "zzzzz",
+            "content": "zzzzzzzzzzzzzzzzz",
+            "author": "z"
+        },
+        {
+            "id": 1,
+            "title": "Dolai Sukanta",
+            "content": "Sukanta Dolai",
+            "author": "Sukanta"
+        },
+        {
+            "id": 4,
+            "title": "new Sukanta",
+            "content": "Sukanta Dolai",
+            "author": "Sukanta"
+        },
+        {
+            "id": 10,
+            "title": "Sukanta Dolai",
+            "content": "Sukanta Dolai",
+            "author": "Sukanta"
+        }
+    ]
+}

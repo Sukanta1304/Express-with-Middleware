@@ -1,0 +1,11 @@
+
+
+db.createCollection("evaluation")
+
+
+1.db.evaluation.updateMany({$or:[{age:{$mod:[2,0]}},{family_members:{$mod:[2,0]}}]},{$set:{"even_user" :true}});
+
+2. db.evaluation.updateMany({$and:[{gender:"Male"},{age:{$mod:[2,1]}}]},{$inc:{age: -1}});
+
+3. db.evaluation.find({$and:[{native:"United States"},{age:{$lte:23}}]},{$unset:{relocate_to
+:""}}).sort({family_members:1})
